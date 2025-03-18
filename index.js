@@ -1,9 +1,9 @@
-const express = require('express');
 const dotenv = require('dotenv');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const postRoutes = require('./routes/blogRoutes');
 const connectDB = require('./DB/connectDB')
+const express = require('express')
 dotenv.config();
 const app = express();
 
